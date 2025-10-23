@@ -7,14 +7,19 @@ nav, nav ul li a, footer {
     color: white;
     background-color: #2a253f;
     text-align: center;
+    /* max-height: 30px; */
 }
 
 /* CABECERA DEL INDEX */
 header#index {
-    background-color: #409c40;
+    background-color: #48ac48;
     color: white;
     text-align: center;
-    /* padding: 30px; */
+}
+header .tituloindex {
+    height: 100%;
+    padding: 50px;
+    font-size: 0.9em;
 }
 
 /* MENÚ PRINCIPAL */
@@ -50,3 +55,29 @@ nav ul li a:hover {
 }
 
 /* SECCIÓN PRINCIPAL */
+main {
+    margin: 30px;
+}
+main article.cajaindex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+main div.index {
+    /* border: 1px solid; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-size: 0.9em;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8em;
+}
