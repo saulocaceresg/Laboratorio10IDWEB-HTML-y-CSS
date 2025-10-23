@@ -1,0 +1,52 @@
+/* ESTILOS GENERALES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav, nav ul li a, footer {
+    color: white;
+    background-color: #2a253f;
+    text-align: center;
+}
+
+/* CABECERA DEL INDEX */
+header#index {
+    background-color: #409c40;
+    color: white;
+    text-align: center;
+    /* padding: 30px; */
+}
+
+/* MENÚ PRINCIPAL */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+}
+nav ul li a:hover {
+    background-color: rgb(179, 179, 171);
+    color: #2a253f;
+}
+
+/* SECCIÓN PRINCIPAL */
