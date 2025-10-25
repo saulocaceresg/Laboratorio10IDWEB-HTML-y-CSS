@@ -74,11 +74,12 @@ main article.cajaindex {
     grid-template-columns: auto auto auto;
     gap: 10px;
 }
-main div.index, div.servicios {
+main article.cajaindex div.index, article.cajaservicios div.servicios, article.cajaportafolio div.portafolio {
     /* border: 1px solid; */
     text-align: center;
     align-items: center;
     justify-content: center;
+    /* padding: 10px; */
     background-color: beige;
     font-size: 0.9em;
 }
@@ -113,4 +114,18 @@ main article.cajaservicios {
 main article.cajaservicios div.servicios {
     align-items: center;
     justify-content: center;
+}
+
+
+/* =================== PORTAFOLIO ======================= */
+/* ---- Contenido principal de portafolio.html ---- */
+main article.cajaportafolio {
+    text-align: center;
+    display: inline;
+    gap: 10px;
+}
+main article.cajaportafolio div.portafolio {
+    width: 33%;
+    margin: 10px auto;
+    padding: 8px;
 }
