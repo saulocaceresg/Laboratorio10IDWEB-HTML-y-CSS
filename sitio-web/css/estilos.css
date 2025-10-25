@@ -1,7 +1,16 @@
 /* ESTILOS GENERALES */
+html {
+    min-height: 100%;
+    position: relative;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    /* Partes necesarias para mejorar el formato de la página en generla, especialmente el footer */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: 50px;
 }
 nav, nav ul li a, footer {
     color: white;
@@ -19,7 +28,7 @@ header#index {
 header .tituloindex {
     height: 100%;
     padding: 50px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 /* MENÚ PRINCIPAL */
@@ -27,6 +36,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 nav ul li {
     list-style: none;
@@ -75,9 +86,12 @@ main div.index {
 /* FOOTER */
 footer {
     height: 50px;
-    display: flex;
+    width: 100%;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 0.8em;
+    position: absolute;
+    bottom: 0;
 }
