@@ -143,3 +143,23 @@ main article.cajanos {
 main article.cajanos div.nos {
     padding: 0 15px;
 }
+
+
+/* =================== CONTACTO ======================= */
+/* ---- Contenido principal de contacto.html ---- */
+main form.formcontac {
+    margin: auto;   
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+form.formcontac input, form.formcontac textarea {
+    width: 100%;
+    margin: 7px 0;
+}
+form.formcontac textarea {
+    height: 50px;
+}
+form.formcontac input {
+    height: 35px;
+}
