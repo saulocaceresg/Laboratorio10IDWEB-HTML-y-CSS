@@ -74,7 +74,7 @@ main article.cajaindex {
     grid-template-columns: auto auto auto;
     gap: 10px;
 }
-main div.index {
+main div.index, div.servicios {
     /* border: 1px solid; */
     text-align: center;
     align-items: center;
@@ -94,4 +94,23 @@ footer {
     font-size: 0.8em;
     position: absolute;
     bottom: 0;
+}
+
+
+/* =================== SERVICIOS ======================= */
+/* ---- Cabecera ---- */
+header h1 {
+    font-size: 1.7em;
+    margin-left: 30px;
+}
+
+/* ---- Contenido principal de servicios.html ---- */
+main article.cajaservicios {
+    display: grid;
+    grid-template-columns: auto auto auto auto; /* Común con .cajaindex */
+    gap: 10px;
+}
+main article.cajaservicios div.servicios {
+    align-items: center;
+    justify-content: center;
 }
