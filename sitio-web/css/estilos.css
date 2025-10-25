@@ -74,7 +74,7 @@ main article.cajaindex {
     grid-template-columns: auto auto auto;
     gap: 10px;
 }
-main article.cajaindex div.index, article.cajaservicios div.servicios, article.cajaportafolio div.portafolio {
+main article.cajaindex div.index, article.cajaservicios div.servicios, article.cajaportafolio div.portafolio, article.cajanos div.nos {
     /* border: 1px solid; */
     text-align: center;
     align-items: center;
@@ -128,4 +128,18 @@ main article.cajaportafolio div.portafolio {
     width: 33%;
     margin: 10px auto;
     padding: 8px;
+}
+
+
+/* =================== NOSOTROS ======================= */
+/* ---- Contenido principal de nosotros.html ---- */
+main article.cajanos {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+main article.cajanos div.nos {
+    padding: 0 15px;
 }
